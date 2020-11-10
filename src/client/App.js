@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './style-components/global';
 import { lightTheme } from './style-components/theme';
-import Navbar from './layouts/Navbar';
 
 const App = ({ route }) => {
   return (

@@ -14,11 +14,11 @@ const HomePage = () => {
       <PageContentBox>
         <MainHeading type="main">{data.heading}</MainHeading>
         <SecondarySubheading>{data.subheading}</SecondarySubheading>
-        <Link to="https://github.com/imsks/React-Router-SSR-Boilerplate">
+        <a href="https://github.com/imsks/React-Router-SSR-Boilerplate">
           <StyledButton size="large" margin="4rem 0 1rem 0" type="primary">
             {data.cta_text}
           </StyledButton>
-        </Link>
+        </a>
       </PageContentBox>
     </HomepageContainer>
   );

@@ -1,7 +1,7 @@
 {
-  "name": "make-my-web-1",
+  "name": "react-router-ssr",
   "version": "1.0.0",
-  "description": "Server side rendering project",
+  "description": "React Router Style Component SSR",
   "engines": {
     "node": "10.14.2"
   },
@@ -66,8 +66,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "extract-loader": "^1.0.2",
-    "file-loader": "^0.11.2",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.1",
     "node-sass": "^4.14.1",

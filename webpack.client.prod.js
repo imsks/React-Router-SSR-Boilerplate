@@ -48,9 +48,16 @@ const config = {
       {
         test: /\.scss$/,
         use: [
-          // Creates `style` nodes from JS strings
-          'style-loader',
-          // Translates CSS into CommonJS
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].min.css',
+              outputPath: 'assets/css/',
+            },
+          },
+          {
+            loader: 'extract-loader',
+          },
           {
             loader: 'css-loader',
             options: {
@@ -59,8 +66,9 @@ const config = {
               root: webConfig.siteURL,
             },
           },
-          // Compiles Sass to CSS
-          'sass-loader',
+          {
+            loader: 'sass-loader',
+          },
         ],
       },
     ],
