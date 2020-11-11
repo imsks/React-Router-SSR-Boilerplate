@@ -1,7 +1,7 @@
 {
-  "name": "react-router-ssr",
+  "name": "pick-my-fam",
   "version": "1.0.0",
-  "description": "React Router Style Component SSR",
+  "description": "Pick My Fam",
   "engines": {
     "node": "10.14.2"
   },
@@ -18,7 +18,7 @@
     "dev:server": "nodemon --watch build --exec \"node build/bundle.js\"",
     "precommit": "pretty-quick --staged"
   },
-  "author": "ilker ALTIN",
+  "author": "Sachin Kr. Shukla",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
